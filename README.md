@@ -1,42 +1,47 @@
-#Project Title: Entity and Relation Extraction using Python#
+Entity and Relation Extraction using Python
+📄 Description
 
-Description:
-This project extracts named entities and relations from a financial order document using Python. It focuses on identifying organisations, names, and their corresponding PAN numbers, then builds the relationship “PAN_Of” between them. The extraction is automated using text parsing and regular expressions, and the results are stored in a structured CSV format.
+This project demonstrates how to extract named entities and relations from a financial order document using Python.
+It focuses on identifying organisations, names, and their corresponding PAN numbers, then maps their relationship as “PAN_Of”.
+The extraction process is automated using text parsing and regular expressions, and the final results are saved in a structured CSV file.
 
-Key Features:
+🚀 Key Features
 
-PDF text extraction using pdfplumber
+Extracts text directly from PDFs using pdfplumber
 
-Pattern-based entity recognition with regex
+Identifies entities and PAN numbers with pattern-based regex
 
-Automatic relation mapping (e.g., PAN_Of)
+Builds automatic relation mappings (e.g., PAN_Of)
 
-Clean and validated CSV output
+Outputs clean, validated data in CSV format
 
-Tech Stack:
-Python, pdfplumber, Regular Expressions (Regex), CSV
+🧠 Tech Stack
 
-Files Included:
+Languages & Libraries:
+Python • pdfplumber • Regular Expressions (Regex) • CSV
 
-Assignment1_extraction.py — main extraction script
+📁 Files Included
 
-PDF for Python LLM (1).pdf — input dataset
+Assignment1_extraction.py — Main extraction script
 
-extracted_entities_relations.csv — output file
+PDF for Python LLM (1).pdf — Input dataset (source document)
 
-Usage:
+extracted_entities_relations.csv — Output file with extracted entities and relations
 
-Install dependency:
-
+⚙️ Usage
+1. Install dependency
 pip install pdfplumber
 
-
-Run the script:
-
+2. Run the script
 python Assignment1_extraction.py
 
+3. View output
 
-View results in extracted_entities_relations.csv.
+Open the generated file:
 
-Outcome:
-Efficient extraction of PAN-based entity relationships from complex regulatory text using open-source tools.
+extracted_entities_relations.csv
+
+🎯 Outcome
+
+This project automates the extraction of PAN-based entity relationships from complex financial or regulatory documents.
+It provides a scalable template for entity-relation extraction tasks using open-source tools and standard Python libraries.
